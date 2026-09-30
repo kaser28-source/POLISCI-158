@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaser Singh Chowdhary</title>
+  <style>
+    :root {
+      --navy: #163b65;
+      --blue: #2f6fa3;
+      --pale-blue: #f4f8fc;
+      --text: #263746;
+      --muted: #5d7890;
+      --white: #ffffff;
+      --rule: #2f6fa3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--pale-blue);
+      color: var(--text);
+      font-family: Inter, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.68;
+    }
+
+    .page {
+      width: min(100% - 40px, 860px);
+      margin: 0 auto;
+      padding: 72px 0 42px;
+    }
+
+    header {
+      background: var(--white);
+      border-top: 6px solid var(--navy);
+      padding: 44px 46px 38px;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      color: var(--navy);
+      font-size: clamp(2.25rem, 6vw, 3rem);
+      font-weight: 750;
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.55;
+    }
+
+    .header-rule,
+    .section-rule {
+      height: 4px;
+      background: var(--rule);
+    }
+
+    .header-rule {
+      margin: 0 0 54px;
+    }
+
+    section {
+      padding: 0 46px 54px;
+    }
+
+    section + section {
+      padding-top: 48px;
+    }
+
+    .section-rule {
+      margin: 0 46px 46px;
+    }
+
+    h2 {
+      margin-bottom: 18px;
+      color: var(--blue);
+      font-size: 1.55rem;
+      font-weight: 720;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    p + p {
+      margin-top: 18px;
+    }
+
+    footer {
+      border-top: 2px solid rgba(47, 111, 163, 0.32);
+      margin: 4px 46px 0;
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        font-size: 17px;
+      }
+
+      .page {
+        width: min(100% - 28px, 860px);
+        padding: 36px 0 32px;
+      }
+
+      header {
+        padding: 34px 26px 30px;
+        border-top-width: 5px;
+      }
+
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .header-rule {
+        margin-bottom: 42px;
+      }
+
+      section {
+        padding: 0 26px 44px;
+      }
+
+      section + section {
+        padding-top: 40px;
+      }
+
+      .section-rule {
+        height: 3px;
+        margin: 0 26px 38px;
+      }
+
+      h2 {
+        font-size: 1.32rem;
+      }
+
+      footer {
+        margin: 0 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Kaser Singh Chowdhary</h1>
+      <p class="subtitle">Political Science student interested in AI, policy, law, and institutions.</p>
+    </header>
+    <div class="header-rule" aria-hidden="true"></div>
+
+    <main>
+      <section aria-labelledby="about-me">
+        <h2 id="about-me">About Me</h2>
+        <p>My name is Kaser Singh Chowdhary. I'm a junior at Stanford University studying Political Science and Symbolic Systems, with a concentration in Human-Centered Artificial Intelligence. I'm interested in the intersection of technology, law, and public policy, especially how new technologies affect governments and other institutions.</p>
+      </section>
+
+      <div class="section-rule" aria-hidden="true"></div>
+
+      <section aria-labelledby="research-interests">
+        <h2 id="research-interests">Research Interests</h2>
+        <p>My research interests include AI governance and policy, law and technology, and the impact of artificial intelligence on institutions. I'm especially interested in how governments and organizations adopt AI, how AI changes institutional decision-making, and how it could affect organizational structures, human expertise, accountability, and oversight.</p>
+        <p>Through the Global Government GenAI Observatory (G3O), I've worked on research related to the adoption and governance of generative AI in the public sector, including questions involving transparency, disclosure, and responsible institutional use. I'm also interested in how policymakers can respond to technological change without unnecessarily limiting innovation.</p>
+      </section>
+
+      <div class="section-rule" aria-hidden="true"></div>
+
+      <section aria-labelledby="project-idea">
+        <h2 id="project-idea">Project Idea for This Class</h2>
+        <p>For this class, I'm interested in exploring the intersection of artificial intelligence and economic policy. I want to examine how the adoption of AI could affect firms and other economic institutions, including productivity, how work is organized, the value of expertise, and which tasks are performed by people versus AI.</p>
+        <p>This is still an emerging project idea, but I'm interested in what these changes could mean for policymakers and how governments should respond to the economic effects of AI while still allowing the technology to develop and be useful.</p>
+      </section>
+    </main>
+
+    <footer>
+      Kaser Chowdhary
+    </footer>
+  </div>
+</body>
+</html>
